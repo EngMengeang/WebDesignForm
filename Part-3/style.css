@@ -1,0 +1,159 @@
+
+body {
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+   
+}
+
+div {
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    background: linear-gradient(rgb(4, 2, 37), rgb(130, 42, 170));
+    width: 50%;
+    justify-content: center;
+    padding: 1.5em;
+    box-shadow: 2px 3px 5px rgb(70, 1, 46);
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    border-radius: 5px;
+    justify-content: center;
+    
+   
+}
+
+.container .content .header {
+    display: flex;
+    justify-content: center;
+   flex: 1 1 0;
+    font-size: 1.5em;
+   color: white;
+   
+}
+
+.container .content .body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .body .info{
+    display: flex;
+    flex: 1 1 0;
+    justify-content:space-between
+}
+
+.container .content .body .info .infomation{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border: 1px solid white;
+    margin: 0.5em;
+}
+
+.container .content .body .info .infomation:hover{
+    
+    border: 1px solid blue;
+    margin: 0.5em;
+    
+}
+
+
+.container .content .body .info input{
+   padding: 0.5em;
+   border: none;
+   outline: none;
+   background: none;
+   color: white;
+}
+
+.container .content .body .userInfo {
+    border: none;
+}
+
+
+
+.container .content .body .userInfo .userConfirm{
+    border: none;
+    font-size: small;
+    font-weight: 100;
+}
+
+.container .content .body .userInfo .userConfirm:hover{
+    border: none;
+    
+}
+
+.container .content .body .userInfo .userConfirm input:focus{
+   accent-color: Orange;
+   scale: 1.1;
+}
+
+.container .content .body .userInfo .userConfirm input:active{
+    
+    scale: 1.5;
+}
+
+
+.container .content .body .submit .regis{
+    border: none;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.container .content .body .submit .regis:hover{
+    border: none;
+    
+}
+
+.container .content .body .submit .regis input{
+   
+    background-color: rgb(110, 6, 179);
+    box-shadow: 2px 2px 2px black;
+}
+
+.container .content .body .submit .regis input:hover{
+   
+    font-size: 15px;
+}
+
+.container .content .body .submit .regis input:focus{
+   
+    background-color: rgb(151, 82, 3);
+    box-shadow: 2px 2px 2px rgb(2, 87, 121);
+}
+
+
+@media screen and (min-width:641px) and (max-width:1024px) {
+    .container {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    
+}
+
+@media screen and (max-width:640px) {
+    .container {
+        width: 100%;
+       margin: 10px;
+      
+    }
+    .container .content .body .info{
+       flex-direction: column;
+    }
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+    <form class="content">
+
+       <div class="header">
+            <p>
+                Create Account
+            </p>
+       </div>
+
+       <div class="body">
+
+            <div class="name info">
+
+                <div class="fname infomation">
+                    <label for="firstname">First name *</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="enter your first name">
+                </div>
+
+                <div class="lname infomation">
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="enter your last name">
+                </div>
+                
+            </div>
+
+            <div class="email info">
+                <div class="email infomation">
+                    <label for="Youremail">Email*</label>
+                    <input type="email" id="Youremail" name="Youremail" placeholder="enter your email">
+                </div>
+
+                
+                
+            </div>
+
+            <div class="passWord info">
+
+                <div class="YourPass infomation">
+                    <label for="pass">Password *</label>
+                    <input type="password" id="pass" name="pass" placeholder="enter your password">
+                </div>
+
+                <div class="confirmPass infomation">
+                    <label for="cPass">Confirm Password *</label>
+                    <input type="password" id="cPass" name="cPass" placeholder="enter your password again">
+                </div>
+                
+            </div>
+            
+            <div class="genAndHob info">
+
+                <div class="gen hobAndGen infomation">
+                    <label>Gender:</label>
+                    <div>
+                        <input type="radio" id="male" name="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="hob hobAndGen infomation">
+                    <label>Hobbies</label>
+                    <div>
+                        <input type="checkbox" id="musci" name="music">
+                        <label for="music">Music</label>
+                        <input type="checkbox" id="sport" name="sport">
+                        <label for="sport">Sports</label>
+                        <input type="checkbox" id="travel" name="travel">
+                        <label for="travel">Travel</label>
+                        <input type="checkbox" id="mov" name="mov">
+                        <label for="mov">Movies</label>
+                    </div>
+                </div>
+                
+                
+            </div>
+           
+            <div class="income info">
+
+                <div class="incomeInfo infomation">
+                    <label>Source of Income</label>
+                    <select>
+                        <option >Employed</option>
+                        <option >Boss</option>
+                        <option>Captain</option>
+                    </select>
+                </div>
+
+                <div class="incomeInfo infomation">
+                    <label>Income</label>
+                    <div class="salary">
+                        <input type="range" class="range" min="20" max="100" >
+                        <div id="rangeValue">20K</div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="pic info">
+
+                <div class="file infomation">
+                    <label for="profile">Upload Profile Picture</label>
+                    <input type="file" id="profile" name="profile">
+                </div>
+
+                <div class="Age infomation">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" placeholder="Enter Your Age">
+                </div>
+                
+            </div>
+            
+            <div class="email info">
+                <div class="email infomation">
+                    <label for="Youremail">Bio</label>
+                    <textarea name="message" rows="5" > 
+                    </textarea> 
+                </div>
+
+       </div>
+       <div class="footer">
+       
+            <input type="button" value="Create">
+        
+        </form>
+        
+    </div>
+
+</div>
+</body>
+</html>
